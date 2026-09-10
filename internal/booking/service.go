@@ -10,13 +10,13 @@ import (
 	"github.com/google/uuid"
 	"google.golang.org/protobuf/proto"
 
-	"google.golang.org/protobuf/types/known/timestamppb"
 	commonv1 "github.com/mireacrm/contracts-go/mirea/common/v1"
 	eventsv1 "github.com/mireacrm/contracts-go/mirea/events/v1"
 	realtimev1 "github.com/mireacrm/contracts-go/mirea/realtime/v1"
+	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/mireacrm/go-common/infra"
 	"github.com/mireacrm/booking-service/internal/access"
+	"github.com/mireacrm/go-common/infra"
 )
 
 // Directory — то, что booking спрашивает у соседей. Реализуется gRPC-клиентами

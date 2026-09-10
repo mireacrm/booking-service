@@ -9,8 +9,8 @@ import (
 	bookingv1 "github.com/mireacrm/contracts-go/mirea/booking/v1"
 	commonv1 "github.com/mireacrm/contracts-go/mirea/common/v1"
 
-	"github.com/mireacrm/go-common/infra"
 	"github.com/mireacrm/booking-service/internal/booking"
+	"github.com/mireacrm/go-common/infra"
 )
 
 type Server struct {

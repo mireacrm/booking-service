@@ -16,8 +16,8 @@ import (
 	commonv1 "github.com/mireacrm/contracts-go/mirea/common/v1"
 	corev1 "github.com/mireacrm/contracts-go/mirea/core/v1"
 
-	"github.com/mireacrm/go-common/infra"
 	"github.com/mireacrm/booking-service/internal/booking"
+	"github.com/mireacrm/go-common/infra"
 )
 
 // Directory — синхронные вызовы к соседям: график специалиста из core,

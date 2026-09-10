@@ -9,8 +9,8 @@ import (
 
 	"github.com/jackc/pgx/v5/pgxpool"
 
-	"github.com/mireacrm/go-common/infra"
 	"github.com/mireacrm/booking-service/migrations"
+	"github.com/mireacrm/go-common/infra"
 )
 
 // Интеграционные тесты вынесены под тег `integration`: `go test ./...` без базы

@@ -9,8 +9,8 @@ import (
 	"github.com/go-chi/chi/v5"
 	"github.com/google/uuid"
 
-	"github.com/mireacrm/go-common/infra"
 	"github.com/mireacrm/booking-service/internal/booking"
+	"github.com/mireacrm/go-common/infra"
 )
 
 type Handler struct {

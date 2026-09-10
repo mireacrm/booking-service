@@ -13,13 +13,13 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/mireacrm/go-common/infra"
 	"github.com/mireacrm/booking-service/internal/api"
 	"github.com/mireacrm/booking-service/internal/booking"
 	"github.com/mireacrm/booking-service/internal/clients"
 	"github.com/mireacrm/booking-service/internal/config"
 	"github.com/mireacrm/booking-service/internal/rpc"
 	"github.com/mireacrm/booking-service/migrations"
+	"github.com/mireacrm/go-common/infra"
 )
 
 func main() {
